@@ -1,0 +1,102 @@
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+  }
+  
+  nav li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+  }
+  
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+  
+  nav ul ul li {
+    width: 200px;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+  nav ul ul ul li {
+    position: relative;
+    top:-60px;
+    left:200px;
+  }
+  
+  
+
+
+  form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+/* Style pour les champs de saisie */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style pour le bouton d'envoi */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style pour le bouton d'envoi au survol */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style pour le groupe de champs */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Style pour le titre du formulaire */
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}

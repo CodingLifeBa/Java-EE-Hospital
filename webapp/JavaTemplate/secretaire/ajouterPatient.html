@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css">
+     <link rel="stylesheet" href="css1.css">
+</head>
+<body>
+
+    
+               
+             
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+        
+        <p style="width: 25%;height:25%;margin-top:1%"><img src="hopital.png" style="width:18%; height:20%"><image/></p>
+         <p class="" style="font-size: 27px; font-family:Arial black; color:firebrick; padding-top: 1%;margin-left: -20%;width: 20%">Galle Kissal</p>
+          
+             <ul class="navbar-nav me-auto">
+               <li><a href="#">Ajouter</a>
+            <ul>
+              <li><a href="ajouterPatient.html">Ajouter Patient</a></li>
+              <li><a href="Rv/ajout.html">Ajouter Rv</a></li>
+              <li><a href="suiviPatient/ajout.html">Ajouter Suivi Patient</a></li>
+            </ul>
+          </li>
+            <li><a href="#">Modifier</a>
+            <ul>
+              <li><a href="modifierPatient.html">Modifier Patient</a></li>
+              <li><a href="Rv/modifierrv.html">Modifier Rv</a></li>
+              <li><a href="suiviPatient/modifierrv.html">Modifier Suivi Patient</a></li>
+            </ul>
+          </li>
+            <li><a href="#">Recherher</a>
+            <ul>
+              <li><a href="rechercherPatient.html">Rechercher Patient</a></li>
+              <li><a href="Rv/rechercherrv.html">Rechercher Rv</a></li>
+              <li><a href="suiviPatient/rechercherrv.html">Rechercher Suivi Patient</a></li>
+            </ul>
+          </li>
+            <li><a href="#">Lister</a>
+            <ul>
+              <li><a href="ListerPatient.html">Lister Patient</a></li>
+              <li><a href="Rv/lister.html">Lister Rv</a></li>
+              <li><a href="suiviPatient/lister.html">Lister Suivi Patient</a></li>
+            </ul>
+          </li>
+            <li><a href="">Archiver</a>
+            <ul>
+              <li><a href="archiverPatient.html">Archiver Patient</a></li>
+              <li><a href="Rv/archiver.html">Archiver Rv</a></li>
+              <li><a href="suiviPatient/archiver.html">Archiver Suivi Patient</a></li>
+            </ul>
+          </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <form class="form-group" action="http://localhost:8080/miniProjet/ajoutP" method="POST>
+        <h1>Ajouter un patient</h1>
+       
+       
+        <div>
+          <label for="exampleFormControlInput1">Code Patient</label>
+          <input type="text" class="form-control"  placeholder="CodePatient">
+      
+          <label for="exampleFormControlInput1">Prenom</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Prenom">
+       
+       
+          <label for="exampleFormControlInput1">Nom</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nom">
+        
+       
+          <label for="exampleFormControlInput1">Login</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@gmail.com">
+      
+          <label for="exampleFormControlInput1">Password</label>
+          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password">
+       
+           <button class="rounded border border-dark p-2 m-2 text-center text-white bg-info " style="width: 20%"><?= $titre ?>Ajouter</button>
+            <?=$content ?>
+        </div>
+       
+      </form>
+        
+       
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> 
+
+</body>
+</html>

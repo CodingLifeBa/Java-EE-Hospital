@@ -1,0 +1,17 @@
+body{
+    background-image:url(hospis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+h1, #amane{
+    color: rgb(86, 9, 9);
+    font-size: 25px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 37%;
+    padding-top: 10%;
+
+}
